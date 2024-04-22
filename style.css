@@ -1,0 +1,29 @@
+#header {
+    text-align: center;
+    margin: auto 2em 
+}
+p {
+    margin: .2em auto
+}
+
+section {
+    margin: 1em 4em 2em
+}
+h1, h2 {
+    font-weight: 100px;
+    margin-bottom: 0;
+}
+
+html {
+    font-family:"Courier New", monospace;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
