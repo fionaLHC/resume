@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    background-color: darkseagreen;   
+    background-color: #669bbc;   
 }
 
 .fa {
@@ -32,13 +32,13 @@ body {
     border-radius: 50%;
 }
   main {
-    color:cadetblue
+    color:#003049;
   }
  a:link {
-    color: cadetblue 
+    color: #003049; 
  }
  a:hover {
-    color: darkslategrey 
+    color: darkslategrey
  }
 
  a:visited {
@@ -46,5 +46,5 @@ body {
  }
 
  header {
-    color:cadetblue
+    color:#003049;
  }
