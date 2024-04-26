@@ -3,11 +3,12 @@
     margin: auto 2em 
 }
 p {
-    margin: .2em auto
+    margin: .2em auto;
+    color:#001427;
 }
 
 section {
-    margin: 1em 4em 2em
+    margin: 1em 4em 2em;
     
 }
 h1, h2 {
@@ -23,8 +24,9 @@ body {
     background-color: #669bbc;   
 }
 
-rightside. {
-    margin:
+#rightside {
+    column-count:2;
+    column-gap:4px;
 }
 
 .fa {
@@ -42,7 +44,7 @@ rightside. {
     color: #003049; 
  }
  a:hover {
-    color: darkslategrey
+    color: darkslategrey;
  }
 
  a:visited {
@@ -51,4 +53,7 @@ rightside. {
 
  header {
     color:#003049;
+ }
+ li {
+    color:#001427;
  }
