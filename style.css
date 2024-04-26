@@ -23,6 +23,10 @@ body {
     background-color: #669bbc;   
 }
 
+rightside. {
+    margin:
+}
+
 .fa {
     padding: 10px;
     font-size: 30px;
@@ -32,8 +36,6 @@ body {
     border-radius: 50%;
 }
   main {
-    display: grid;
-    grid-template-columns: 50% 50%;
     color:#003049;
   }
  a:link {
