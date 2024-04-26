@@ -22,20 +22,42 @@ html {
 
 body {
     background-color: #669bbc;   
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    min-height: 100vh; /* Make sure the container covers the entire viewport height */
 }
+
+    .container {
+        width: 80%; /* Set the width of the container */
+        max-width: 800px; /* Max width for better readability on larger screens */
+    }
+
+    /* Clear floats */
+    .container::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Style the columns */
+    .column {
+        width: calc(50% - 10px);        
+        float: left;
+        margin-right: 2%; /* Add some space between columns */
+    }
+
+    /* Clear the last column float */
+    .column:last-child {
+        margin-right: 0;
+    }
 
 #rightside {
     column-count:2;
     column-gap:4px;
-}
-
-.fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
 }
   main {
     color:#003049;
